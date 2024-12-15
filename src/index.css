@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    /* Bouton générique */
+    .btn {
+      @apply font-bold rounded;
+    }
+  
+    /* Variantes de couleur opaque */
+    .btn-violet {
+      @apply bg-violet text-white hover:bg-purple-700;
+    }
+    .btn-black {
+      @apply bg-noir text-white hover:bg-gray-800;
+    }
+  
+    /* Variantes transparentes */
+    .btn-transparent-violet {
+      @apply bg-transparent text-violet border border-violet hover:bg-violet hover:text-white hover:border-transparent;
+    }
+    .btn-transparent-black {
+      @apply bg-transparent text-noir border border-noir hover:bg-noir hover:text-white hover:border-transparent;
+    }
+  
+    /* Variantes de taille */
+    .btn-sm {
+      @apply py-1 px-2 text-sm;
+    }
+    .btn-md {
+      @apply py-2 px-4 text-base;
+    }
+    .btn-lg {
+      @apply py-3 px-6 text-lg;
+    }
+    .btn-xl {
+      @apply py-4 px-8 text-xl;
+    }
+
+    
+  }
+  

@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        violet: '#A238FF', // Couleur violette personnalisée
+        noir: '#000000',   // Couleur noire
+      },
+    },
   },
   plugins: [],
-}
+};
