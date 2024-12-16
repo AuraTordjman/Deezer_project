@@ -6,12 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+     
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
-        violet: '#A238FF', // Couleur violette personnalisée
-        noir: '#000000',   // Couleur noire
+        violet: '#A238FF', // Couleur Deezer 
+        noir: '#000000',   
       },
     },
   },
